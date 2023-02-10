@@ -2,7 +2,7 @@
 > Advanced Resources company established at 1423 in Saudi Arabia, specialized in Metal production and Metal fabrication such as business manufacturing Warehouses, fences, umbrellas, various types of decorative iron work.
 
 ## Official Domain ✨
-> https://advanced-resources.com/
+> https://advanced-resources.com
 
 ## Built With ⚡️
 - HTML
