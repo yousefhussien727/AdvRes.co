@@ -9620,11 +9620,12 @@ h1 {
 }
 
 .c-layout-footer.c-layout-footer-3 .c-prefooter .c-container .c-links>li>a {
-  color: #5c6873;
+  color: #7f8c97;
+  font-weight: 400;
 }
 
 .c-layout-footer.c-layout-footer-3 .c-prefooter .c-container .c-links>li>a:hover {
-  color: #32c5d2;
+  color: #006CB5;
 }
 
 .c-layout-footer.c-layout-footer-3 .c-prefooter .c-container .c-links>li:last-child {
@@ -9757,6 +9758,14 @@ h1 {
   margin-left: 10px;
   position: relative;
   top: 2px;
+}
+
+.c-layout-footer.c-layout-footer-3 .c-prefooter .c-container .c-address>li>a {
+  color: #7f8c97;
+}
+
+.c-layout-footer.c-layout-footer-3 .c-prefooter .c-container .c-address>li>a:hover {
+  color: #006CB5;
 }
 
 .c-layout-footer.c-layout-footer-3 .c-prefooter .c-container .c-read-more {
