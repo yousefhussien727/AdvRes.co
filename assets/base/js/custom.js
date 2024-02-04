@@ -23,3 +23,7 @@ function toggleLanguage() {
 // BEGIN: Get & Update the current year at the footer dynamically
 document.getElementById('currentYear').innerText = new Date().getFullYear();
 // END
+
+// BEGIN: Get & Update the current year at the footer dynamically
+document.getElementById('catalogLink').href = "../assets/base/media/pdf/Products Portfolio - AdvResCo.pdf";
+// END
