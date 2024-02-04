@@ -19,3 +19,7 @@ function toggleLanguage() {
     document.getElementById('languageToggleLink').href = newUrl;
 }
 // END
+
+// BEGIN: Get & Update the current year at the footer dynamically
+document.getElementById('currentYear').innerText = new Date().getFullYear();
+// END
