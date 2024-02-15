@@ -95,9 +95,13 @@
 .c-layout-footer.c-layout-footer-3 .c-prefooter .c-container .c-links>li>a {
     color: #7f8c97;
     font-weight: 400;
-  }
-  
-  .c-layout-footer.c-layout-footer-3 .c-prefooter .c-container .c-links>li>a:hover {
+}
+
+.c-layout-footer.c-layout-footer-3 .c-prefooter .c-container .c-links>li>a:hover {
     color: #006CB5;
-  }
-  
+}
+
+.justify-text {
+    text-align: justify;
+    text-justify: inter-word;
+}
