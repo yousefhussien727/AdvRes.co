@@ -20,7 +20,7 @@ Developed by: Yousef Hussien - yousef.hu@outlook.com - https://www.linkedin.com/
     <meta name="keywords"
         content="Advanced Resources co., metal doors, Steel Structure, door manufacturing, emergency doors, construction works, Medina, Kingdom of Saudi Arabia, metal fabrication factory, door decorations, metal construction, general contracting, door accessories, metal accessories, decorative works, metal decorations, Handrails, Decorated doors. | المصادر المتقدمة، الابواب المعدنية، اعمال معدنية، صناعة الابواب، ابواب الطوارئ، اعمال انشائية، المدينة المنورة، المملكة العربية السعودية، مصنع اعمال معدنية، زخارف ابواب، انشاءات معدنية، مقاولات عامة، اكسسوارات ابواب، اكسسوارات معدنية، اعمال زخرفية، زخارف معدنية، ابواب مزخرفة">
     <meta name="author" content="Yousef Hussien - https://www.linkedin.com/in/yousefhussien/" />
-    <meta http-equiv="refresh" content="0; url=ar/">
+    <!-- <meta http-equiv="refresh" content="0; url=ar/"> -->
 
     <style>
         body {
@@ -62,12 +62,25 @@ Developed by: Yousef Hussien - yousef.hu@outlook.com - https://www.linkedin.com/
                 transform: rotate(360deg);
             }
         }
-
-
-        #manual-redirect {
+     
+        
+        #manual-redirect,
+        #manual-redirect:visited {
             display: none;
             position: absolute;
-            bottom: 20%;
+            bottom: 25%;
+            background-color: white;
+            color: #006CB5;
+            border: 2px solid #006CB5;
+            padding: 5px 10px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        #manual-redirect:hover,
+        #manual-redirect:active {
+            background-color: #006CB5;
+            color: white;
         }
     </style>
 </head>
@@ -76,14 +89,11 @@ Developed by: Yousef Hussien - yousef.hu@outlook.com - https://www.linkedin.com/
     <div class="loader"></div>
     <a id="manual-redirect" href="ar/">Click to Redirect</a>
 
-
     <script>
         // JavaScript to show the link after 5 seconds
-        setTimeout(function() {
-            // Get the link element by its ID
+        setTimeout(function () {
+            // Get the link element by its ID and update style display
             var linkElement = document.getElementById("manual-redirect");
-            
-            // Optionally, you can use CSS to show the link
             linkElement.style.display = "block";
         }, 5000);
     </script>
