@@ -91,3 +91,12 @@
 .c-content-tab-4.c-opt-3>.nav>li:active>a {
     background-color: #006CB5;
 }
+
+.c-layout-footer.c-layout-footer-3 .c-prefooter .c-container .c-links>li>a {
+    color: #7f8c97;
+    font-weight: 400;
+  }
+  
+  .c-layout-footer.c-layout-footer-3 .c-prefooter .c-container .c-links>li>a:hover {
+    color: #006CB5;
+  }
