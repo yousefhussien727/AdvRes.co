@@ -12,7 +12,7 @@ function toggleLanguage() {
     // console.log(newLanguage);
 
     // Construct the new URL for the toggled language
-    var newUrl = '../' + newLanguage + '/pages/' + currentUrlSplited[2];
+    var newUrl = '../' + newLanguage + '/' + currentUrlSplited[2];
     // console.log(newUrl);
 
     // Set the href attribute of the link to the new URL
